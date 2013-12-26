@@ -20,4 +20,5 @@ xset b off						# No BEEP
 start-pulseaudio-x11
 
 # Start xmonad
+xmobar &
 exec xmonad

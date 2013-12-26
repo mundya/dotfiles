@@ -1,0 +1,7 @@
+Config { font = "xft:Open Source Sans:size 8:antialias=True"
+       , bgColor = "black"
+       , fgColor = "grey"
+       , position = Bottom
+       , commands = [ Run Network "enp3s0" ["-L","0","-H","32","--normal","gree","--high","red"] 10
+                    ]
+       }
