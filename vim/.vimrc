@@ -2,9 +2,6 @@
 :colorscheme slate
 :set guifont=Source\ Code\ Pro\ Light\ 10
 
-:set showmatch
-:set matchtime=3
-
 :set spell spelllang=en_gb
 :set spf="~/.vimspell"
 
