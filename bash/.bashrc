@@ -11,10 +11,14 @@ if [ -t 0 ]; then
     # Remove the history
     rm -f ~/.bash_history
 fi
-	
+
 ### ls {{{
 alias ls='ls -hF --color=auto'    # Coloured 'ls'
 alias ll='ls -l'
+### }}}
+
+### vi {{{
+alias vi='vim'
 ### }}}
 	
 export EDITOR="vi"
