@@ -19,9 +19,5 @@ xset b off						# No BEEP
 # Start PulseAudio
 start-pulseaudio-x11
 
-# Set wallpaper
-feh --bg-tile ~/Downloads/bgstripes.png
-
-# Start i3
-conky
-exec i3
+# Start xmonad
+exec xmonad
