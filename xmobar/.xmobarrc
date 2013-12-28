@@ -13,8 +13,9 @@ Config { font = "xft:Open Source Sans:size 8:antialias=True"
                         , "-O", "Charging"
                         , "-o", "Battery: <left>%"
                         ] 600
+                    , Run NamedXPropertyLog "py_wiip" "wiip"
                     , Run Date "%H:%M:%S" "time" 10
                     , Run StdinReader
                     ]
-       , template = "%StdinReader% }{ %wlan0wi% | %time%"
+       , template = "%StdinReader% }{ %battery% | %wlan0wi% %wiip% | %time%"
        }
