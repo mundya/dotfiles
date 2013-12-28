@@ -6,6 +6,7 @@ import XMonad.Util.EZConfig(additionalKeys)
 import System.IO
 
 main = do
+    xmproc <- spawnPipe "xmobar"
     xmonad $ defaultConfig
            { modMask = mod4Mask     -- Main mod key is the super key
            , manageHook = manageDocks <+> manageHook defaultConfig
