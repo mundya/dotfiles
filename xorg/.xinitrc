@@ -17,7 +17,7 @@ xset b off						# No BEEP
 [[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources	# Xresources
 
 # Wallpaper
-feh --bg-fill IMAG0241.jpg
+feh --bg-fill ~/IMAG0241.jpg
 
 # Start PulseAudio
 start-pulseaudio-x11
