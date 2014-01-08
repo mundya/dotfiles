@@ -6,7 +6,7 @@ fi
 
 if [ -t 0 ]; then
     # Set the prompt
-    export PS1="\[\e[0;34m\]\u@\h\[\e[m\] \[\e[0;32m\]\w\[\e[m\] \$ "
+    export PS1="\[\e[1;34m\]\u@\h\[\e[m\] \[\e[0;32m\]\w\[\e[m\] \$ "
 
     # Remove the history
     rm -f ~/.bash_history
