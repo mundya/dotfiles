@@ -22,5 +22,5 @@ feh --bg-fill ~/IMAG0241.jpg
 # Start PulseAudio
 start-pulseaudio-x11
 
-# Start xmonad
-exec xmonad
+# Start i3
+exec i3
