@@ -20,6 +20,17 @@ alias ll='ls -l'
 ### vi {{{
 alias vi='vim'
 ### }}}
+
+### Operating system specific modifications
+if [[ `uname -r` =~ "ARCH" ]];
+then
+    ### Arch Linux
+    ### Python {{{
+    # Make Python point to Python2 like most OSs
+    alias python="python2"
+    alias ipython="ipython2"
+    ### }}}
+fi
 	
 export EDITOR="vi"
 # export CC="colorgcc"
