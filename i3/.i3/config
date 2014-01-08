@@ -12,9 +12,7 @@
 set $mod Mod4
 
 # Fonts
-font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
-# font pango:Roboto Condensed 10
-font pango:Source Sans Pro 10
+font 5x11
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -30,8 +28,7 @@ bindsym $mod+Shift+Return exec pcmanfm
 bindsym Mod1+F4 kill
 
 # start dmenu (a program launcher)
-# bindsym $mod+d exec dmenu_run -nb "#555753" -nf "#fce94f" -sb "#edd400" -sf "#2e3436" -fn 'Roboto-10:condensed'
-bindsym $mod+d exec dmenu_run -nb "#555753" -nf "#fce94f" -sb "#edd400" -sf "#2e3436" -fn 'Source Sans Pro-10'
+bindsym $mod+d exec dmenu_run -nb "#555753" -nf "#fce94f" -sb "#edd400" -sf "#2e3436" -fn '5x9'
 
 # change focus
 #bindsym $mod+j focus left
