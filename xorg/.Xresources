@@ -1,5 +1,5 @@
 ! -- XTerm Fonts
-URxvt*font: 7x13
+URxvt*font: xft:profont:pixelsize=12
 
 ! -- Colours
 URxvt*background: #111111
@@ -30,7 +30,6 @@ URxvt*foreground: #babdb6
 !URxvt*color15: #ffffff1111
 
 URxvt.scrollstyle: plain
-URxvt.perl-ext-common: tabbed
 
 ! -- Cursors
 Xcursor.theme: Adwaita
