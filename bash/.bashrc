@@ -12,6 +12,11 @@ if [ -t 0 ]; then
     rm -f ~/.bash_history
 fi
 
+### Remove *.pyc files
+function pycrm {
+    find . -regex ".+\.pyc$" -delete
+}
+
 ### ls {{{
 alias ls='ls -hF --color=auto'    # Coloured 'ls'
 alias ll='ls -l'
