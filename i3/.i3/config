@@ -18,7 +18,8 @@ font 5x11
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+# bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec xterm
 
 # Open the file manager
 bindsym $mod+Shift+Return exec pcmanfm
