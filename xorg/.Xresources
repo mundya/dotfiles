@@ -1,5 +1,5 @@
 ! -- XTerm Fonts
-URxvt*font: xft:profont:pixelsize=12
+! URxvt*font: xft:profont:pixelsize=12
 
 ! -- Colours
 URxvt*background: #111111
