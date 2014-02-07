@@ -36,6 +36,11 @@ then
     alias ipython="ipython2"
     ### }}}
 fi
+
+# Ruby
+if [ -d ~/.gem/ruby/2.0.0/bin ]; then
+    export PATH=$PATH:~/.gem/ruby/2.0.0/bin
+fi
 	
 export EDITOR="vi"
 # export CC="colorgcc"
