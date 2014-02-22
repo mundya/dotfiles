@@ -6,7 +6,7 @@
 :au BufNewFile,BufRead,BufEnter *.c set softtabstop=2 shiftwidth=2 expandtab 
 :au BufNewFile,BufRead,BufEnter *.h set softtabstop=2 shiftwidth=2 expandtab 
 
-:au BufNewFile,BufRead,BufEnter *.tex,*.txt setlocal spell spelllang=en_gb
+:au BufNewFile,BufRead,BufEnter *.md,*.tex,*.txt setlocal spell spelllang=en_gb
 
 :set ai
 :set nu
