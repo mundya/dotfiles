@@ -26,6 +26,10 @@ alias ll='ls -l'
 alias vi='vim'
 ### }}}
 
+### path {{{
+export PATH=$PATH:~/bin/
+### }}}
+
 ### Operating system specific modifications
 if [[ `uname -r` =~ "ARCH" ]];
 then
