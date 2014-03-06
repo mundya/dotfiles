@@ -179,7 +179,7 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 10
 bar {
 	id main-bar
         status_command i3status
-	tray_output LVDS1
+	tray_output primary
 
 	colors {
 		background #1a1a1e
