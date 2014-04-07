@@ -8,5 +8,7 @@
 
 :au BufNewFile,BufRead,BufEnter *.md,*.tex,*.txt setlocal spell spelllang=en_gb
 
+:set hlsearch
+
 :set ai
 :set nu
