@@ -5,8 +5,10 @@
 
 :au BufNewFile,BufRead,BufEnter *.py set softtabstop=4 shiftwidth=4 expandtab
 :au BufNewFile,BufRead,BufEnter *.[ch] set softtabstop=2 shiftwidth=2 expandtab
+:au BufNewFile,BufRead,BufEnter *.tex set softtabstop=2 shiftwidth=2 expandtab
+:au BufNewFile,BufRead,BufEnter *.rst set softtabstop=2 shiftwidth=2 expandtab
 
-:au BufNewFile,BufRead,BufEnter *.md,*.tex,*.txt setlocal spell spelllang=en_gb
+:au BufNewFile,BufRead,BufEnter *.rst,*.md,*.tex,*.txt setlocal spell spelllang=en_gb
 
 :set hlsearch
 
