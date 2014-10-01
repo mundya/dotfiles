@@ -7,6 +7,7 @@ fi
 if [ -t 0 ]; then
     # Set the prompt
     export PS1="\[\e[1;34m\]\u@\h\[\e[m\] \[\e[0;32m\]\w\[\e[m\] \$ "
+    export PROMPT_DIRTRIM=2
 
     # Remove the history
     rm -f ~/.bash_history
@@ -15,6 +16,11 @@ fi
 ### Remove *.pyc files
 function pycrm {
     find . -regex ".+\.pyc$" -delete
+}
+
+### NST Devices
+function nstterm {
+    python -m serial.tools.miniterm --dtr=1 --rts=1 -b 4000000 --rtscts -p /dev/tty$1 -e
 }
 
 ### ls {{{
