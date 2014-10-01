@@ -1,5 +1,5 @@
 ! -- Colours
-URxvt*background: #222222
+URxvt*background: #1a1a1a
 URxvt*foreground: #babdb6
 xterm*background: #111111
 xterm*foreground: #babdb6
