@@ -8,9 +8,6 @@ if [ -t 0 ]; then
     # Set the prompt
     export PS1="\[\e[1;34m\]\u@\h\[\e[m\] \[\e[0;32m\]\w\[\e[m\] \$ "
     export PROMPT_DIRTRIM=2
-
-    # Remove the history
-    rm -f ~/.bash_history
 fi
 
 ### Remove *.pyc files
@@ -48,8 +45,8 @@ then
 fi
 
 # Ruby
-if [ -d ~/.gem/ruby/2.0.0/bin ]; then
-    export PATH=$PATH:~/.gem/ruby/2.0.0/bin
+if [ -d ~/.gem/ruby/2.1.0/bin ]; then
+    export PATH=$PATH:~/.gem/ruby/2.1.0/bin
 fi
 	
 export EDITOR="vi"

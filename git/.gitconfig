@@ -1,0 +1,9 @@
+[user]
+	name = AndrewMundy
+	email = andrew.mundy@ieee.org
+[core]
+	editor = vim
+[credential]
+	helper = cache
+[push]
+	default = matching
