@@ -21,6 +21,7 @@ feh --bg-fill ~/IMAG0241.jpg
 
 # Start PulseAudio
 start-pulseaudio-x11
+alsactl restore
 
 # Start i3
 exec i3
