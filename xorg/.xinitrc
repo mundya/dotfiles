@@ -15,6 +15,7 @@ fi
 setxkbmap gb						# Keyboard
 xset b off						# No BEEP
 [[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources	# Xresources
+[[ -f ~/solarized ]] && xrdb -merge ~/solarized	# Xresources
 
 # Wallpaper
 feh --bg-fill ~/IMAG0241.jpg
