@@ -34,15 +34,10 @@ export PATH=$PATH:~/bin/
 ### }}}
 
 ### Operating system specific modifications
-if [[ `uname -r` =~ "ARCH" ]];
-then
+# if [[ `uname -r` =~ "ARCH" ]];
+# then
     ### Arch Linux
-    ### Python {{{
-    # Make Python point to Python2 like most OSs
-    alias python="python2"
-    alias ipython="ipython2"
-    ### }}}
-fi
+# fi
 
 # Ruby
 if [ -d ~/.gem/ruby/2.1.0/bin ]; then
