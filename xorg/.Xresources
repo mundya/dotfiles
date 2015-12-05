@@ -4,3 +4,6 @@ URxvt.scrollstyle: plain
 ! -- Cursors
 Xcursor.theme: Adwaita
 Xcursor.size:  22
+
+! -- URxvt font
+URxvt*font: xft:terminus:size=8
