@@ -1,5 +1,5 @@
 [user]
-	name = AndrewMundy
+	name = Andrew Mundy
 	email = andrew.mundy@ieee.org
 [core]
 	editor = vim
@@ -7,3 +7,6 @@
 	helper = cache
 [push]
 	default = matching
+[alias]
+	co = checkout
+	wdiff = diff --color-words
